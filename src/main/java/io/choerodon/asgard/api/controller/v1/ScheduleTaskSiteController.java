@@ -44,7 +44,7 @@ public class ScheduleTaskSiteController {
         this.scheduleTaskService = scheduleTaskService;
     }
 
-    @Permission(level = ResourceLevel.SITE, roles = {InitRoleCode.SITE_DEVELOPER})
+    @Permission(permissionPublic = true)
     @ApiOperation(value = "全局层创建定时任务")
     @PostMapping
     public ResponseEntity<QuartzTaskDTO> create(@RequestBody @Valid ScheduleTask dto) {
@@ -52,14 +52,14 @@ public class ScheduleTaskSiteController {
         return new ResponseEntity<>(scheduleTaskService.create(dto, ResourceLevel.SITE.value(), 0L), HttpStatus.OK);
     }
 
-    @Permission(level = ResourceLevel.SITE, roles = {InitRoleCode.SITE_DEVELOPER})
+    @Permission(permissionPublic = true)
     @ApiOperation(value = "全局层启用任务")
     @PutMapping("/{id}/enable")
     public void enable(@Encrypt @PathVariable Long id, @RequestParam Long objectVersionNumber) {
         scheduleTaskService.enable(id, objectVersionNumber, ResourceLevel.SITE.value(), 0L);
     }
 
-    @Permission(level = ResourceLevel.SITE, roles = {InitRoleCode.SITE_DEVELOPER})
+    @Permission(permissionPublic = true)
     @ApiOperation(value = "全局层停用任务")
     @PutMapping("/{id}/disable")
     public void disable(@Encrypt @PathVariable Long id, @RequestParam Long objectVersionNumber) {
@@ -67,21 +67,21 @@ public class ScheduleTaskSiteController {
         scheduleTaskService.disable(id, objectVersionNumber, false);
     }
 
-    @Permission(level = ResourceLevel.SITE, roles = {InitRoleCode.SITE_DEVELOPER})
+    @Permission(permissionPublic = true)
     @ApiOperation(value = "全局层删除任务")
     @DeleteMapping("/{id}")
     public void delete(@Encrypt @PathVariable Long id) {
         scheduleTaskService.delete(id, ResourceLevel.SITE.value(), 0L);
     }
 
-    @Permission(level = ResourceLevel.SITE, permissionWithin = true)
+    @Permission(permissionPublic = true)
     @ApiOperation(value = "全局层删除任务")
     @DeleteMapping("/name")
     public void deleteByName(@RequestParam(value = "name") String name) {
         scheduleTaskService.deleteByName(name, ResourceLevel.SITE.value(), 0L);
     }
 
-    @Permission(level = ResourceLevel.SITE, roles = {InitRoleCode.SITE_DEVELOPER})
+    @Permission(permissionPublic = true)
     @GetMapping
     @ApiOperation(value = "全局层分页查询定时任务")
     @CustomPageRequest
@@ -96,7 +96,7 @@ public class ScheduleTaskSiteController {
         return scheduleTaskService.pageQuery(pageRequest, status, name, description, params, ResourceLevel.SITE.value(), 0L);
     }
 
-    @Permission(level = ResourceLevel.SITE, roles = {InitRoleCode.SITE_DEVELOPER})
+    @Permission(permissionPublic = true)
     @GetMapping("/{id}")
     @ApiOperation(value = "全局层查看任务详情")
     public ResponseEntity<ScheduleTaskDetail> getTaskDetail(@Encrypt @PathVariable Long id) {
@@ -104,7 +104,7 @@ public class ScheduleTaskSiteController {
 
     }
 
-    @Permission(level = ResourceLevel.SITE, roles = {InitRoleCode.SITE_DEVELOPER})
+    @Permission(permissionPublic = true)
     @ApiOperation(value = "全局层任务名校验")
     @PostMapping(value = "/check")
     public ResponseEntity<Void> check(@RequestBody String name) {

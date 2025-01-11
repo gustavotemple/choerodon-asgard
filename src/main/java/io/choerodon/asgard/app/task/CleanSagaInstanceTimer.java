@@ -62,7 +62,7 @@ public class CleanSagaInstanceTimer {
     }
 
     @JobTask(code = "cleanSagaInstance", maxRetryCount = 0,
-            description = "清理已完成的saga实例和task实例", enableTransaction = false)
+            description = "清理已完成的saga实例和task实例")
     public void cleanSagaInstance(Map<String, Object> data) {
         cleanSagaInstance();
     }

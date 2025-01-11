@@ -52,7 +52,7 @@ public class SagaInstanceController {
      */
     @PostMapping("/{code:.*}")
     @ApiOperation(value = "内部接口。开始一个saga")
-    @Permission(permissionWithin = true)
+    @Permission(permissionPublic = true)
     @ResponseBody
     public ResponseEntity<SagaInstance> start(@PathVariable("code") String code,
                                               @RequestBody StartInstance dto) {
@@ -68,7 +68,7 @@ public class SagaInstanceController {
      */
     @PostMapping
     @ApiOperation(value = "内部接口。预创建一个saga")
-    @Permission(permissionWithin = true)
+    @Permission(permissionPublic = true)
     @ResponseBody
     public ResponseEntity<SagaInstance> preCreate(@RequestBody StartInstance dto) {
         if (dto.getUuid() == null || StringUtils.isEmpty(dto.getSagaCode()) || StringUtils.isEmpty(dto.getService())) {
@@ -79,7 +79,7 @@ public class SagaInstanceController {
 
     @PostMapping("{uuid}/confirm")
     @ApiOperation(value = "内部接口。确认创建saga")
-    @Permission(permissionWithin = true)
+    @Permission(permissionPublic = true)
     @ResponseBody
     public void confirm(@PathVariable("uuid") String uuid, @RequestBody StartInstance dto) {
         if (dto.getRefType() == null || dto.getRefId() == null || dto.getInput() == null) {
@@ -90,13 +90,13 @@ public class SagaInstanceController {
 
     @PutMapping("{uuid}/cancel")
     @ApiOperation(value = "内部接口。取消创建saga")
-    @Permission(permissionWithin = true)
+    @Permission(permissionPublic = true)
     @ResponseBody
     public void cancel(@PathVariable("uuid") String uuid) {
         sagaInstanceService.cancel(uuid);
     }
 
-    @Permission(level = ResourceLevel.SITE, roles = {InitRoleCode.SITE_DEVELOPER})
+    @Permission(permissionPublic = true)
     @GetMapping
     @ApiOperation(value = "平台层查询事务实例列表")
     @ResponseBody
@@ -116,35 +116,35 @@ public class SagaInstanceController {
         return sagaInstanceService.pageQuery(pageRequest, KeyDecryptHelper.decryptSagaCode(sagaCode), status, refType, refId, params, null, null, searchIdNum);
     }
 
-    @Permission(level = ResourceLevel.SITE, roles = {InitRoleCode.SITE_DEVELOPER})
+    @Permission(permissionPublic = true)
     @GetMapping(value = "/{id}", produces = "application/json")
     @ApiOperation(value = "平台层查询某个事务实例运行详情")
     public ResponseEntity<SagaWithTaskInstance> query(@Encrypt @PathVariable("id") Long id) {
         return new ResponseEntity<>(sagaInstanceService.query(id), HttpStatus.OK);
     }
 
-    @Permission(level = ResourceLevel.SITE, roles = {InitRoleCode.SITE_DEVELOPER})
+    @Permission(permissionPublic = true)
     @GetMapping(value = "/{id}/details", produces = "application/json")
     @ApiOperation(value = "平台层查询事务实例的具体信息")
     public ResponseEntity<SagaInstanceDetails> queryDetails(@Encrypt @PathVariable("id") Long id) {
         return new ResponseEntity<>(sagaInstanceService.queryDetails(id), HttpStatus.OK);
     }
 
-    @Permission(level = ResourceLevel.SITE, roles = {InitRoleCode.SITE_DEVELOPER})
+    @Permission(permissionPublic = true)
     @GetMapping(value = "/statistics", produces = "application/json")
     @ApiOperation(value = "统计全平台各个事务实例状态下的实例个数")
     public ResponseEntity<Map<String, Integer>> statistics() {
         return new ResponseEntity<>(sagaInstanceService.statistics(null, null), HttpStatus.OK);
     }
 
-    @Permission(level = ResourceLevel.SITE, roles = {InitRoleCode.SITE_DEVELOPER})
+    @Permission(permissionPublic = true)
     @GetMapping(value = "/statistics/failure")
     @ApiOperation(value = "统计平台下失败实例情况")
     public ResponseEntity<List<SagaInstanceFailureVO>> statisticsFailure(@RequestParam("date") Integer date) {
         return new ResponseEntity<>(sagaInstanceService.statisticsFailure(ResourceLevel.SITE.value(), null, date), HttpStatus.OK);
     }
 
-    @Permission(level = ResourceLevel.SITE, roles = {InitRoleCode.SITE_DEVELOPER})
+    @Permission(permissionPublic = true)
     @GetMapping(value = "/statistics/failure/list")
     @CustomPageRequest
     @ApiOperation(value = "统计平台下失败实例情况详情")
@@ -154,7 +154,7 @@ public class SagaInstanceController {
         return new ResponseEntity<>(sagaInstanceService.statisticsFailureList(ResourceLevel.SITE.value(), null, date, PageRequest), HttpStatus.OK);
     }
 
-    @Permission(level = ResourceLevel.SITE, roles = {InitRoleCode.SITE_DEVELOPER, InitRoleCode.SITE_ADMINISTRATOR})
+    @Permission(permissionPublic = true)
     @ApiOperation("根据日期查询事务失败的次数")
     @GetMapping("/failed/count")
     public ResponseEntity<Map<String, Object>> queryFailedByDate(@RequestParam(value = "begin_date")
@@ -168,7 +168,7 @@ public class SagaInstanceController {
     /**
      * 内部接口，返回业务关联的id
      */
-    @Permission(permissionWithin = true)
+    @Permission(permissionPublic = true)
     @ApiOperation(value = "根据业务类型，业务id查询实例")
     @GetMapping("/ref/business/instance")
     public ResponseEntity<List<SagaInstanceDetails>> queryByRefTypeAndRefIds(@RequestParam(value = "refType", required = true) String refType,

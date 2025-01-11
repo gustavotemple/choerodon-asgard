@@ -31,7 +31,7 @@ public class ScheduleTaskController {
         this.scheduleTaskService = scheduleTaskService;
     }
 
-    @Permission(permissionWithin = true)
+    @Permission(permissionPublic = true)
     @ApiOperation(value = "根据serviceCode和methodCode创建定时任务 -- 内部接口")
     @PostMapping("/internal")
     public ResponseEntity<QuartzTaskDTO> createByServiceCodeAndMethodCode(
@@ -42,7 +42,7 @@ public class ScheduleTaskController {
         return new ResponseEntity<>(scheduleTaskService.createByServiceCodeAndMethodCode(dto, sourceLevel, sourceId), HttpStatus.OK);
     }
 
-    @Permission(permissionWithin = true)
+    @Permission(permissionPublic = true)
     @ApiOperation(value = "根据name删除定时任务 -- 内部接口")
     @DeleteMapping("/internal/delete")
     public ResponseEntity deleteByTaskName(
