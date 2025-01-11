@@ -1,0 +1,582 @@
+{
+	"info": {
+		"_postman_id": "e3bfde6e-4980-406a-9821-80ed7928de95",
+		"name": "Choerodon-asgard",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6978248"
+	},
+	"item": [
+		{
+			"name": "create-saga-instance",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const res = pm.response.json();",
+							"",
+							"pm.collectionVariables.set(\"sagaInstanceId\", BigInt(res.id).toString());",
+							"",
+							"pm.test(\"not failed\", function() {",
+							"    const responseBody = pm.response.json();",
+							"    pm.expect(responseBody).not.to.have.property('failed');",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"const uuid = require('uuid');",
+							"const generatedUUID = uuid.v4().replace(/-/g, '');",
+							"",
+							"pm.collectionVariables.set('uuid', generatedUUID);",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"level\": \"organization\",\n    \"refId\": \"{{$timestamp}}\",\n    \"refType\": \"project\",\n    \"sagaCode\": \"iam-create-project\",\n    \"uuid\": \"{{uuid}}\",\n    \"service\": \"postman\"\n}"
+				},
+				"url": {
+					"raw": "http://{{url}}:8040/v1/sagas/instances",
+					"protocol": "http",
+					"host": [
+						"{{url}}"
+					],
+					"port": "8040",
+					"path": [
+						"v1",
+						"sagas",
+						"instances"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "one-saga-instance",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"not failed\", function() {",
+							"    const responseBody = pm.response.json();",
+							"    pm.expect(responseBody).not.to.have.property('failed');",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{url}}:8040/v1/sagas/instances/:id",
+					"protocol": "http",
+					"host": [
+						"{{url}}"
+					],
+					"port": "8040",
+					"path": [
+						"v1",
+						"sagas",
+						"instances",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "{{sagaInstanceId}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "saga-instance-details",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"not empty\", function() {",
+							"    const responseBody = pm.response.json();",
+							"    pm.expect(responseBody).not.to.be.empty;",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{url}}:8040/v1/sagas/instances/:id/details",
+					"protocol": "http",
+					"host": [
+						"{{url}}"
+					],
+					"port": "8040",
+					"path": [
+						"v1",
+						"sagas",
+						"instances",
+						":id",
+						"details"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "{{sagaInstanceId}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "list-saga-instances",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"not empty\", function() {",
+							"    const responseBody = pm.response.json();",
+							"    pm.expect(responseBody.empty).to.be.false;",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{url}}:8040/v1/sagas/instances",
+					"protocol": "http",
+					"host": [
+						"{{url}}"
+					],
+					"port": "8040",
+					"path": [
+						"v1",
+						"sagas",
+						"instances"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cancel-saga-instance",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"OK\", function () {",
+							"  pm.response.to.have.status(200);",
+							"});",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://{{url}}:8040/v1/sagas/instances/:uuid/cancel",
+					"protocol": "http",
+					"host": [
+						"{{url}}"
+					],
+					"port": "8040",
+					"path": [
+						"v1",
+						"sagas",
+						"instances",
+						":uuid",
+						"cancel"
+					],
+					"variable": [
+						{
+							"key": "uuid",
+							"value": "{{uuid}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create-schedule-task",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const res = pm.response.json();",
+							"",
+							"pm.collectionVariables.set(\"scheduleTaskId\", BigInt(res.id).toString());",
+							"",
+							"pm.test(\"not failed\", function() {",
+							"    const responseBody = pm.response.json();",
+							"    pm.expect(responseBody).not.to.have.property('failed');",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"const currentDate = new Date();",
+							"const formattedDate = currentDate.toISOString().slice(0, 19).replace('T', ' ');",
+							"",
+							"pm.variables.set(\"startTimeStr\", formattedDate);",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"methodCode\": \"fixSagaData\",\n    \"methodId\": {{methodId}},\n    \"name\": \"name{{$randomInt}}\",\n    \"simpleRepeatCount\": 10,\n    \"simpleRepeatInterval\": 1,\n    \"simpleRepeatIntervalUnit\": \"HOURS\",\n    \"triggerType\": \"simple-trigger\",\n    \"startTimeStr\": \"{{startTimeStr}}\"\n}"
+				},
+				"url": {
+					"raw": "http://{{url}}:8040/v1/schedules/tasks",
+					"protocol": "http",
+					"host": [
+						"{{url}}"
+					],
+					"port": "8040",
+					"path": [
+						"v1",
+						"schedules",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "one-schedule-task",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"not failed\", function() {",
+							"    const responseBody = pm.response.json();",
+							"    pm.expect(responseBody).not.to.have.property('failed');",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{url}}:8040/v1/schedules/tasks/:id",
+					"protocol": "http",
+					"host": [
+						"{{url}}"
+					],
+					"port": "8040",
+					"path": [
+						"v1",
+						"schedules",
+						"tasks",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "{{scheduleTaskId}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "list-schedule-tasks",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"not empty\", function() {",
+							"    const responseBody = pm.response.json();",
+							"    pm.expect(responseBody.empty).to.be.false;",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{url}}:8040/v1/schedules/tasks",
+					"protocol": "http",
+					"host": [
+						"{{url}}"
+					],
+					"port": "8040",
+					"path": [
+						"v1",
+						"schedules",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "disable-schedule-task",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response body is null\", function () {",
+							"    const responseData = pm.response.text();    ",
+							"    pm.expect(responseData).to.be.empty;",
+							"});",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://{{url}}:8040/v1/schedules/tasks/:id/disable?objectVersionNumber=1",
+					"protocol": "http",
+					"host": [
+						"{{url}}"
+					],
+					"port": "8040",
+					"path": [
+						"v1",
+						"schedules",
+						"tasks",
+						":id",
+						"disable"
+					],
+					"query": [
+						{
+							"key": "objectVersionNumber",
+							"value": "1"
+						}
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "{{scheduleTaskId}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "enable-schedule-task",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response body is null\", function () {",
+							"    const responseData = pm.response.text();    ",
+							"    pm.expect(responseData).to.be.empty;",
+							"});",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://{{url}}:8040/v1/schedules/tasks/:id/enable?objectVersionNumber=2",
+					"protocol": "http",
+					"host": [
+						"{{url}}"
+					],
+					"port": "8040",
+					"path": [
+						"v1",
+						"schedules",
+						"tasks",
+						":id",
+						"enable"
+					],
+					"query": [
+						{
+							"key": "objectVersionNumber",
+							"value": "2"
+						}
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "{{scheduleTaskId}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete-schedule-task",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response body is null\", function () {",
+							"    const responseData = pm.response.text();    ",
+							"    pm.expect(responseData).to.be.empty;",
+							"});",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://{{url}}:8040/v1/schedules/tasks/:id",
+					"protocol": "http",
+					"host": [
+						"{{url}}"
+					],
+					"port": "8040",
+					"path": [
+						"v1",
+						"schedules",
+						"tasks",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "{{scheduleTaskId}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "localhost",
+			"type": "string"
+		},
+		{
+			"key": "sagaInstanceId",
+			"value": "1",
+			"type": "string"
+		},
+		{
+			"key": "uuid",
+			"value": "1",
+			"type": "string"
+		},
+		{
+			"key": "scheduleTaskId",
+			"value": "1",
+			"type": "string"
+		},
+		{
+			"key": "startTimeStr",
+			"value": "1",
+			"type": "string"
+		},
+		{
+			"key": "methodId",
+			"value": "625625575016501248",
+			"type": "string"
+		}
+	]
+}
