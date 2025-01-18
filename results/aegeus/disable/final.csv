@@ -1,0 +1,1831 @@
+creating compilation unit
+compilation unit created
+Getting parameters of ScheduleTaskProjectController::setScheduleTaskService
+Parameter scheduleTaskService of type ScheduleTaskService has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskProjectController::create
+Parameter projectId of type Long has found.
+Parameter dto of type ScheduleTask has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskValidator
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTask
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTask
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskProjectController::enable
+Parameter projectId of type Long has found.
+Parameter id of type Long has found.
+Parameter objectVersionNumber of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskProjectController::disable
+Parameter projectId of type Long has found.
+Parameter id of type Long has found.
+Parameter objectVersionNumber of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskProjectController::delete
+Parameter projectId of type Long has found.
+Parameter id of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskProjectController::pagingQuery
+Parameter projectId of type Long has found.
+Parameter pageRequest of type PageRequest has found.
+Parameter status of type String has found.
+Parameter name of type String has found.
+Parameter description of type String has found.
+Parameter params of type String has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII Sort
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Ops! UnsolvedSymbolException.
+NAO SEIII PageRequest
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskProjectController::getTaskDetail
+Parameter projectId of type Long has found.
+Parameter id of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskProjectController::disableByProjectId
+Parameter projectId of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskProjectController::check
+Parameter projectId of type Long has found.
+Parameter name of type String has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskProjectController::cron
+Parameter projectId of type Long has found.
+Parameter cron of type String has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII TriggerUtils
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Setting types.
+Setting operation.
+Setting all operations.
+Service Descriptor ok!
+ScheduleTaskProjectController,choerodon-asgard,ServiceInterfaceDataCohesion,0.4
+ScheduleTaskProjectController,choerodon-asgard,StrictServiceImplementationCohesion,0.10909090909090909
+ScheduleTaskProjectController,choerodon-asgard,LackOfMessageLevelCohesion,0.7371693121693121
+ScheduleTaskProjectController,choerodon-asgard,NumberOfOperations,10.0
+creating compilation unit
+compilation unit created
+Getting parameters of ScheduleMethodProjectController::setScheduleMethodService
+Parameter scheduleMethodService of type ScheduleMethodService has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleMethodService
+Setting types.
+Setting operation.
+Getting parameters of ScheduleMethodProjectController::pagingQuery
+Parameter projectId of type Long has found.
+Parameter code of type String has found.
+Parameter service of type String has found.
+Parameter method of type String has found.
+Parameter description of type String has found.
+Parameter params of type String has found.
+Parameter pageRequest of type PageRequest has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII Sort
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleMethodService
+Ops! UnsolvedSymbolException.
+NAO SEIII PageRequest
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Setting types.
+Setting operation.
+Getting parameters of ScheduleMethodProjectController::getMethodByService
+Parameter projectId of type Long has found.
+Parameter service of type String has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleMethodService
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Setting types.
+Setting operation.
+Getting parameters of ScheduleMethodProjectController::getParams
+Parameter projectId of type Long has found.
+Parameter id of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleMethodService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Setting types.
+Setting operation.
+Getting parameters of ScheduleMethodProjectController::getServices
+Parameter projectId of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleMethodService
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Setting types.
+Setting operation.
+Setting all operations.
+Service Descriptor ok!
+ScheduleMethodProjectController,choerodon-asgard,ServiceInterfaceDataCohesion,0.5
+ScheduleMethodProjectController,choerodon-asgard,StrictServiceImplementationCohesion,0.25
+ScheduleMethodProjectController,choerodon-asgard,LackOfMessageLevelCohesion,0.905654761904762
+ScheduleMethodProjectController,choerodon-asgard,NumberOfOperations,5.0
+creating compilation unit
+compilation unit created
+Getting parameters of SagaTaskInstanceProjController::setSagaTaskInstanceService
+Parameter sagaTaskInstanceService of type SagaTaskInstanceService has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaTaskInstanceService
+Setting types.
+Setting operation.
+Getting parameters of SagaTaskInstanceProjController::unlockById
+Parameter projectId of type Long has found.
+Parameter id of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Setting types.
+Setting operation.
+Getting parameters of SagaTaskInstanceProjController::forceFailed
+Parameter projectId of type Long has found.
+Parameter id of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Setting types.
+Setting operation.
+Getting parameters of SagaTaskInstanceProjController::unlockByInstance
+Parameter projectId of type Long has found.
+Parameter instance of type String has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII StringUtils
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Setting types.
+Setting operation.
+Getting parameters of SagaTaskInstanceProjController::retry
+Parameter projectId of type Long has found.
+Parameter id of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Setting types.
+Setting operation.
+Getting parameters of SagaTaskInstanceProjController::retrySagaTask
+Parameter projectId of type Long has found.
+Parameter ids of type List<Long> has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII List
+Setting types.
+Setting operation.
+Getting parameters of SagaTaskInstanceProjController::pagingQuery
+Parameter projectId of type Long has found.
+Parameter taskInstanceCode of type String has found.
+Parameter sagaInstanceCode of type String has found.
+Parameter status of type String has found.
+Parameter params of type String has found.
+Parameter pageRequest of type PageRequest has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII Sort
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII PageRequest
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Setting types.
+Setting operation.
+Setting all operations.
+Service Descriptor ok!
+SagaTaskInstanceProjController,choerodon-asgard,ServiceInterfaceDataCohesion,0.4
+SagaTaskInstanceProjController,choerodon-asgard,StrictServiceImplementationCohesion,0.15873015873015872
+SagaTaskInstanceProjController,choerodon-asgard,LackOfMessageLevelCohesion,0.4988662131519274
+SagaTaskInstanceProjController,choerodon-asgard,NumberOfOperations,7.0
+creating compilation unit
+compilation unit created
+Getting parameters of ScheduleMethodOrgController::setScheduleMethodService
+Parameter scheduleMethodService of type ScheduleMethodService has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleMethodService
+Setting types.
+Setting operation.
+Getting parameters of ScheduleMethodOrgController::pagingQuery
+Parameter orgId of type Long has found.
+Parameter code of type String has found.
+Parameter service of type String has found.
+Parameter method of type String has found.
+Parameter description of type String has found.
+Parameter params of type String has found.
+Parameter pageRequest of type PageRequest has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII Sort
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleMethodService
+Ops! UnsolvedSymbolException.
+NAO SEIII PageRequest
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Setting types.
+Setting operation.
+Getting parameters of ScheduleMethodOrgController::getMethodByService
+Parameter orgId of type Long has found.
+Parameter service of type String has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleMethodService
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Setting types.
+Setting operation.
+Getting parameters of ScheduleMethodOrgController::getParams
+Parameter orgId of type Long has found.
+Parameter id of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleMethodService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Setting types.
+Setting operation.
+Getting parameters of ScheduleMethodOrgController::getServices
+Parameter orgId of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleMethodService
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Setting types.
+Setting operation.
+Setting all operations.
+Service Descriptor ok!
+ScheduleMethodOrgController,choerodon-asgard,ServiceInterfaceDataCohesion,0.5
+ScheduleMethodOrgController,choerodon-asgard,StrictServiceImplementationCohesion,0.22857142857142856
+ScheduleMethodOrgController,choerodon-asgard,LackOfMessageLevelCohesion,0.905654761904762
+ScheduleMethodOrgController,choerodon-asgard,NumberOfOperations,5.0
+creating compilation unit
+compilation unit created
+Getting parameters of ScheduleTaskOrgController::setScheduleTaskService
+Parameter scheduleTaskService of type ScheduleTaskService has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskOrgController::create
+Parameter orgId of type Long has found.
+Parameter dto of type ScheduleTask has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskValidator
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTask
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTask
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskOrgController::enable
+Parameter orgId of type Long has found.
+Parameter id of type Long has found.
+Parameter objectVersionNumber of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskOrgController::disable
+Parameter orgId of type Long has found.
+Parameter id of type Long has found.
+Parameter objectVersionNumber of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskOrgController::disableByOrganizationId
+Parameter orgId of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskOrgController::delete
+Parameter orgId of type Long has found.
+Parameter id of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskOrgController::pagingQuery
+Parameter orgId of type Long has found.
+Parameter status of type String has found.
+Parameter name of type String has found.
+Parameter description of type String has found.
+Parameter params of type String has found.
+Parameter pageRequest of type PageRequest has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII Sort
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Ops! UnsolvedSymbolException.
+NAO SEIII PageRequest
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskOrgController::getTaskDetail
+Parameter orgId of type Long has found.
+Parameter id of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskOrgController::check
+Parameter orgId of type Long has found.
+Parameter name of type String has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskOrgController::cron
+Parameter orgId of type Long has found.
+Parameter cron of type String has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII TriggerUtils
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Setting types.
+Setting operation.
+Setting all operations.
+Service Descriptor ok!
+ScheduleTaskOrgController,choerodon-asgard,ServiceInterfaceDataCohesion,0.4
+ScheduleTaskOrgController,choerodon-asgard,StrictServiceImplementationCohesion,0.1
+ScheduleTaskOrgController,choerodon-asgard,LackOfMessageLevelCohesion,0.7371693121693121
+ScheduleTaskOrgController,choerodon-asgard,NumberOfOperations,10.0
+creating compilation unit
+compilation unit created
+Getting parameters of ScheduleTaskSiteController::setScheduleTaskService
+Parameter scheduleTaskService of type ScheduleTaskService has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskSiteController::create
+Parameter dto of type ScheduleTask has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskValidator
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTask
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTask
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskSiteController::enable
+Parameter id of type Long has found.
+Parameter objectVersionNumber of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskSiteController::delete
+Parameter id of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskSiteController::deleteByName
+Parameter name of type String has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskSiteController::pagingQuery
+Parameter pageRequest of type PageRequest has found.
+Parameter status of type String has found.
+Parameter name of type String has found.
+Parameter description of type String has found.
+Parameter params of type String has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII Sort
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Ops! UnsolvedSymbolException.
+NAO SEIII PageRequest
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskSiteController::getTaskDetail
+Parameter id of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskSiteController::check
+Parameter name of type String has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskSiteController::cron
+Parameter cron of type String has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII TriggerUtils
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Setting types.
+Setting operation.
+Setting all operations.
+Service Descriptor ok!
+ScheduleTaskSiteController,choerodon-asgard,ServiceInterfaceDataCohesion,0.4
+ScheduleTaskSiteController,choerodon-asgard,StrictServiceImplementationCohesion,0.1111111111111111
+ScheduleTaskSiteController,choerodon-asgard,LackOfMessageLevelCohesion,0.8694444444444444
+ScheduleTaskSiteController,choerodon-asgard,NumberOfOperations,9.0
+creating compilation unit
+compilation unit created
+Getting parameters of SagaCheckStatusController::pagingQuery
+Parameter tenantId of type Long has found.
+Parameter projectCode of type String has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII Results
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaCheckStatusService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Setting types.
+Setting operation.
+Setting all operations.
+Service Descriptor ok!
+SagaCheckStatusController,choerodon-asgard,ServiceInterfaceDataCohesion,1.0
+SagaCheckStatusController,choerodon-asgard,StrictServiceImplementationCohesion,0.0
+SagaCheckStatusController,choerodon-asgard,LackOfMessageLevelCohesion,1.0
+SagaCheckStatusController,choerodon-asgard,NumberOfOperations,1.0
+creating compilation unit
+compilation unit created
+Getting parameters of SagaController::setSagaService
+Parameter sagaService of type SagaService has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaService
+Setting types.
+Setting operation.
+Getting parameters of SagaController::pagingQuery
+Parameter pageRequest of type PageRequest has found.
+Parameter code of type String has found.
+Parameter description of type String has found.
+Parameter service of type String has found.
+Parameter params of type String has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII Sort
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaService
+Ops! UnsolvedSymbolException.
+NAO SEIII PageRequest
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Setting types.
+Setting operation.
+Getting parameters of SagaController::query
+Parameter id of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Setting types.
+Setting operation.
+Getting parameters of SagaController::delete
+Parameter id of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Setting types.
+Setting operation.
+Getting parameters of SagaController::refresh
+Parameter serviceName of type String has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaService
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII Results
+Setting types.
+Setting operation.
+Getting parameters of SagaController::cleanRecord
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII CleanSagaInstanceTimer
+Ops! UnsolvedSymbolException.
+NAO SEIII Results
+Setting types.
+Setting operation.
+Setting all operations.
+Service Descriptor ok!
+SagaController,choerodon-asgard,ServiceInterfaceDataCohesion,0.5
+SagaController,choerodon-asgard,StrictServiceImplementationCohesion,0.2222222222222222
+SagaController,choerodon-asgard,LackOfMessageLevelCohesion,0.9
+SagaController,choerodon-asgard,NumberOfOperations,6.0
+creating compilation unit
+compilation unit created
+Getting parameters of ScheduleMethodSiteController::setScheduleMethodService
+Parameter scheduleMethodService of type ScheduleMethodService has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleMethodService
+Setting types.
+Setting operation.
+Getting parameters of ScheduleMethodSiteController::pagingQuery
+Parameter code of type String has found.
+Parameter service of type String has found.
+Parameter method of type String has found.
+Parameter description of type String has found.
+Parameter level of type String has found.
+Parameter params of type String has found.
+Parameter pageRequest of type PageRequest has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII Sort
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleMethodService
+Ops! UnsolvedSymbolException.
+NAO SEIII PageRequest
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Setting types.
+Setting operation.
+Getting parameters of ScheduleMethodSiteController::getMethodByService
+Parameter service of type String has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleMethodService
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Setting types.
+Setting operation.
+Getting parameters of ScheduleMethodSiteController::getParams
+Parameter id of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleMethodService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Setting types.
+Setting operation.
+Getting parameters of ScheduleMethodSiteController::getServices
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleMethodService
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Setting types.
+Setting operation.
+Getting parameters of ScheduleMethodSiteController::getMethodIdByCode
+Parameter code of type String has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleMethodService
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Setting types.
+Setting operation.
+Getting parameters of ScheduleMethodSiteController::delete
+Parameter id of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleMethodService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Setting types.
+Setting operation.
+Setting all operations.
+Service Descriptor ok!
+ScheduleMethodSiteController,choerodon-asgard,ServiceInterfaceDataCohesion,0.5
+ScheduleMethodSiteController,choerodon-asgard,StrictServiceImplementationCohesion,0.21428571428571427
+ScheduleMethodSiteController,choerodon-asgard,LackOfMessageLevelCohesion,0.9693877551020409
+ScheduleMethodSiteController,choerodon-asgard,NumberOfOperations,7.0
+creating compilation unit
+compilation unit created
+Getting parameters of ScheduleTaskInstanceSiteController::setScheduleTaskInstanceService
+Parameter scheduleTaskInstanceService of type ScheduleTaskInstanceService has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskInstanceService
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskInstanceSiteController::pagingQuery
+Parameter status of type String has found.
+Parameter taskName of type String has found.
+Parameter exceptionMessage of type String has found.
+Parameter params of type String has found.
+Parameter pageRequest of type PageRequest has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII Sort
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII PageRequest
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskInstanceSiteController::pagingQueryByTaskId
+Parameter taskId of type Long has found.
+Parameter status of type String has found.
+Parameter serviceInstanceId of type String has found.
+Parameter params of type String has found.
+Parameter pageRequest of type PageRequest has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII Sort
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII PageRequest
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskInstanceSiteController::pollBatch
+Parameter dto of type PollScheduleInstanceDTO has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII PollScheduleInstanceDTO
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskInstanceSiteController::updateStatus
+Parameter id of type Long has found.
+Parameter statusDTO of type UpdateStatusDTO has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII UpdateStatusDTO
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII UpdateStatusDTO
+Setting types.
+Setting operation.
+Setting all operations.
+Service Descriptor ok!
+ScheduleTaskInstanceSiteController,choerodon-asgard,ServiceInterfaceDataCohesion,0.5
+ScheduleTaskInstanceSiteController,choerodon-asgard,StrictServiceImplementationCohesion,0.32
+ScheduleTaskInstanceSiteController,choerodon-asgard,LackOfMessageLevelCohesion,0.9285714285714285
+ScheduleTaskInstanceSiteController,choerodon-asgard,NumberOfOperations,5.0
+creating compilation unit
+compilation unit created
+Getting parameters of SagaTaskInstanceController::setSagaTaskInstanceService
+Parameter sagaTaskInstanceService of type SagaTaskInstanceService has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaTaskInstanceService
+Setting types.
+Setting operation.
+Getting parameters of SagaTaskInstanceController::pollBatch
+Parameter pollBatchDTO of type PollSagaTaskInstanceDTO has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII PollSagaTaskInstanceDTO
+Ops! UnsolvedSymbolException.
+NAO SEIII PollSagaTaskInstanceDTO
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII PollSagaTaskInstanceDTO
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Setting types.
+Setting operation.
+Getting parameters of SagaTaskInstanceController::updateStatus
+Parameter id of type Long has found.
+Parameter statusDTO of type SagaTaskInstanceStatus has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaTaskInstanceStatus
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII Results
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaTaskInstanceStatus
+Setting types.
+Setting operation.
+Getting parameters of SagaTaskInstanceController::updateStatusFailureCallback
+Parameter id of type Long has found.
+Parameter status of type String has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Setting types.
+Setting operation.
+Getting parameters of SagaTaskInstanceController::query
+Parameter id of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Setting types.
+Setting operation.
+Getting parameters of SagaTaskInstanceController::forceFailed
+Parameter id of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Setting types.
+Setting operation.
+Getting parameters of SagaTaskInstanceController::unlockById
+Parameter id of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Setting types.
+Setting operation.
+Getting parameters of SagaTaskInstanceController::unlockByInstance
+Parameter instance of type String has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII StringUtils
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Setting types.
+Setting operation.
+Getting parameters of SagaTaskInstanceController::retry
+Parameter id of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Setting types.
+Setting operation.
+Getting parameters of SagaTaskInstanceController::pagingQuery
+Parameter taskInstanceCode of type String has found.
+Parameter sagaInstanceCode of type String has found.
+Parameter status of type String has found.
+Parameter params of type String has found.
+Parameter pageRequest of type PageRequest has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII Sort
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII PageRequest
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Setting types.
+Setting operation.
+Setting all operations.
+Service Descriptor ok!
+SagaTaskInstanceController,choerodon-asgard,ServiceInterfaceDataCohesion,0.3333333333333333
+SagaTaskInstanceController,choerodon-asgard,StrictServiceImplementationCohesion,0.08333333333333333
+SagaTaskInstanceController,choerodon-asgard,LackOfMessageLevelCohesion,0.7166666666666667
+SagaTaskInstanceController,choerodon-asgard,NumberOfOperations,10.0
+creating compilation unit
+compilation unit created
+Getting parameters of ScheduleTaskController::setScheduleTaskService
+Parameter scheduleTaskService of type ScheduleTaskService has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskController::createByServiceCodeAndMethodCode
+Parameter sourceLevel of type String has found.
+Parameter sourceId of type Long has found.
+Parameter dto of type ScheduleTask has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskValidator
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTask
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTask
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskController::deleteByTaskName
+Parameter sourceLevel of type String has found.
+Parameter sourceId of type Long has found.
+Parameter taskName of type String has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII Results
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskController::deleteByIds
+Parameter ids of type List<Long> has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Ops! UnsolvedSymbolException.
+NAO SEIII List
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Setting types.
+Setting operation.
+Setting all operations.
+Service Descriptor ok!
+ScheduleTaskController,choerodon-asgard,ServiceInterfaceDataCohesion,0.4
+ScheduleTaskController,choerodon-asgard,StrictServiceImplementationCohesion,0.25
+ScheduleTaskController,choerodon-asgard,LackOfMessageLevelCohesion,0.9583333333333334
+ScheduleTaskController,choerodon-asgard,NumberOfOperations,4.0
+creating compilation unit
+compilation unit created
+Getting parameters of SagaTaskInstanceOrgController::setSagaTaskInstanceService
+Parameter sagaTaskInstanceService of type SagaTaskInstanceService has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaTaskInstanceService
+Setting types.
+Setting operation.
+Getting parameters of SagaTaskInstanceOrgController::unlockById
+Parameter orgId of type Long has found.
+Parameter id of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Setting types.
+Setting operation.
+Getting parameters of SagaTaskInstanceOrgController::forceFailed
+Parameter orgI of type Long has found.
+Parameter id of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Setting types.
+Setting operation.
+Getting parameters of SagaTaskInstanceOrgController::unlockByInstance
+Parameter orgId of type Long has found.
+Parameter instance of type String has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII StringUtils
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Setting types.
+Setting operation.
+Getting parameters of SagaTaskInstanceOrgController::retry
+Parameter orgId of type Long has found.
+Parameter id of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Setting types.
+Setting operation.
+Getting parameters of SagaTaskInstanceOrgController::pagingQuery
+Parameter pageRequest of type PageRequest has found.
+Parameter orgId of type Long has found.
+Parameter taskInstanceCode of type String has found.
+Parameter sagaInstanceCode of type String has found.
+Parameter status of type String has found.
+Parameter params of type String has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII Sort
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII PageRequest
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Setting types.
+Setting operation.
+Setting all operations.
+Service Descriptor ok!
+SagaTaskInstanceOrgController,choerodon-asgard,ServiceInterfaceDataCohesion,0.5
+SagaTaskInstanceOrgController,choerodon-asgard,StrictServiceImplementationCohesion,0.20833333333333334
+SagaTaskInstanceOrgController,choerodon-asgard,LackOfMessageLevelCohesion,0.5746031746031746
+SagaTaskInstanceOrgController,choerodon-asgard,NumberOfOperations,6.0
+creating compilation unit
+compilation unit created
+Getting parameters of ScheduleTaskSite4Controller::setScheduleTaskService
+Parameter scheduleTaskService of type ScheduleTaskService has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskSite4Controller::disable
+Parameter id of type Long has found.
+Parameter objectVersionNumber of type Long has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskService
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Setting types.
+Setting operation.
+Setting all operations.
+Service Descriptor ok!
+ScheduleTaskSite4Controller,choerodon-asgard,ServiceInterfaceDataCohesion,0.0
+ScheduleTaskSite4Controller,choerodon-asgard,StrictServiceImplementationCohesion,0.3333333333333333
+ScheduleTaskSite4Controller,choerodon-asgard,LackOfMessageLevelCohesion,0.5
+ScheduleTaskSite4Controller,choerodon-asgard,NumberOfOperations,2.0
+creating compilation unit
+compilation unit created
+Getting parameters of ScheduleTaskInstanceOrgController::setScheduleTaskInstanceService
+Parameter scheduleTaskInstanceService of type ScheduleTaskInstanceService has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskInstanceService
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskInstanceOrgController::pagingQuery
+Parameter orgId of type Long has found.
+Parameter status of type String has found.
+Parameter taskName of type String has found.
+Parameter exceptionMessage of type String has found.
+Parameter params of type String has found.
+Parameter pageRequest of type PageRequest has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII Sort
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII PageRequest
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskInstanceOrgController::pagingQueryByTaskId
+Parameter orgId of type Long has found.
+Parameter taskId of type Long has found.
+Parameter status of type String has found.
+Parameter serviceInstanceId of type String has found.
+Parameter params of type String has found.
+Parameter pageRequest of type PageRequest has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII Sort
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII PageRequest
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Setting types.
+Setting operation.
+Setting all operations.
+Service Descriptor ok!
+ScheduleTaskInstanceOrgController,choerodon-asgard,ServiceInterfaceDataCohesion,0.75
+ScheduleTaskInstanceOrgController,choerodon-asgard,StrictServiceImplementationCohesion,0.5714285714285714
+ScheduleTaskInstanceOrgController,choerodon-asgard,LackOfMessageLevelCohesion,0.9166666666666666
+ScheduleTaskInstanceOrgController,choerodon-asgard,NumberOfOperations,3.0
+creating compilation unit
+compilation unit created
+Getting parameters of ScheduleTaskInstanceProjectController::setScheduleTaskInstanceService
+Parameter scheduleTaskInstanceService of type ScheduleTaskInstanceService has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskInstanceService
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskInstanceProjectController::pagingQuery
+Parameter projectId of type long has found.
+Parameter status of type String has found.
+Parameter taskName of type String has found.
+Parameter exceptionMessage of type String has found.
+Parameter params of type String has found.
+Parameter pageRequest of type PageRequest has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII Sort
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII PageRequest
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Type found: PrimitiveTypeUsage{name='long'}
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskInstanceProjectController::pagingQueryByTaskId
+Parameter projectId of type Long has found.
+Parameter taskId of type Long has found.
+Parameter status of type String has found.
+Parameter serviceInstanceId of type String has found.
+Parameter params of type String has found.
+Parameter pageRequest of type PageRequest has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII InitRoleCode
+Ops! UnsolvedSymbolException.
+NAO SEIII Sort
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII PageRequest
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII String
+Ops! UnsolvedSymbolException.
+NAO SEIII ResourceLevel
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Setting types.
+Setting operation.
+Setting all operations.
+Service Descriptor ok!
+ScheduleTaskInstanceProjectController,choerodon-asgard,ServiceInterfaceDataCohesion,0.4
+ScheduleTaskInstanceProjectController,choerodon-asgard,StrictServiceImplementationCohesion,0.4444444444444444
+ScheduleTaskInstanceProjectController,choerodon-asgard,LackOfMessageLevelCohesion,0.9166666666666666
+ScheduleTaskInstanceProjectController,choerodon-asgard,NumberOfOperations,3.0
+creating compilation unit
+compilation unit created
+Getting parameters of SagaTaskInstanceV2Controller::setSagaTaskInstanceService
+Parameter sagaTaskInstanceService of type SagaTaskInstanceService has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaTaskInstanceService
+Setting types.
+Setting operation.
+Getting parameters of SagaTaskInstanceV2Controller::pollBatch
+Parameter pollBatchDTO of type PollSagaTaskInstanceDTO has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII Logger
+Ops! UnsolvedSymbolException.
+NAO SEIII PollSagaTaskInstanceDTO
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII PollSagaTaskInstanceDTO
+Ops! UnsolvedSymbolException.
+NAO SEIII Logger
+Ops! UnsolvedSymbolException.
+NAO SEIII Exception
+Ops! UnsolvedSymbolException.
+NAO SEIII PollSagaTaskInstanceDTO
+Ops! UnsolvedSymbolException.
+NAO SEIII PollSagaTaskInstanceDTO
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII DeferredResult
+Ops! UnsolvedSymbolException.
+NAO SEIII DeferredResult
+Ops! UnsolvedSymbolException.
+NAO SEIII ConcurrentHashMap
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaInstanceHandler
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaInstanceEventPublisher
+Ops! UnsolvedSymbolException.
+NAO SEIII PollSagaTaskInstanceDTO
+Ops! UnsolvedSymbolException.
+NAO SEIII DeferredResult
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII PollSagaTaskInstanceDTO
+Ops! UnsolvedSymbolException.
+NAO SEIII CollectionUtils
+Ops! UnsolvedSymbolException.
+NAO SEIII Set
+Ops! UnsolvedSymbolException.
+NAO SEIII DeferredResult
+Ops! UnsolvedSymbolException.
+NAO SEIII Set
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaInstanceHandler
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaInstanceEventPublisher
+Ops! UnsolvedSymbolException.
+NAO SEIII PollSagaTaskInstanceDTO
+Ops! UnsolvedSymbolException.
+NAO SEIII DeferredResult
+Ops! UnsolvedSymbolException.
+NAO SEIII DeferredResult
+Setting types.
+Setting operation.
+Setting all operations.
+Service Descriptor ok!
+SagaTaskInstanceV2Controller,choerodon-asgard,ServiceInterfaceDataCohesion,0.0
+SagaTaskInstanceV2Controller,choerodon-asgard,StrictServiceImplementationCohesion,0.08333333333333333
+SagaTaskInstanceV2Controller,choerodon-asgard,LackOfMessageLevelCohesion,1.0
+SagaTaskInstanceV2Controller,choerodon-asgard,NumberOfOperations,2.0
+creating compilation unit
+compilation unit created
+Getting parameters of ScheduleTaskInstanceSiteV2Controller::setScheduleTaskInstanceService
+Parameter scheduleTaskInstanceService of type ScheduleTaskInstanceService has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskInstanceService
+Setting types.
+Setting operation.
+Getting parameters of ScheduleTaskInstanceSiteV2Controller::pollBatch
+Parameter dto of type PollScheduleInstanceDTO has found.
+Getting types into method.
+Ops! UnsolvedSymbolException.
+NAO SEIII Logger
+Ops! UnsolvedSymbolException.
+NAO SEIII PollScheduleInstanceDTO
+Ops! UnsolvedSymbolException.
+NAO SEIII Long
+Ops! UnsolvedSymbolException.
+NAO SEIII DeferredResult
+Ops! UnsolvedSymbolException.
+NAO SEIII DeferredResult
+Ops! UnsolvedSymbolException.
+NAO SEIII ConcurrentHashMap
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaInstanceHandler
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaInstanceEventPublisher
+Ops! UnsolvedSymbolException.
+NAO SEIII PollScheduleInstanceDTO
+Ops! UnsolvedSymbolException.
+NAO SEIII DeferredResult
+Ops! UnsolvedSymbolException.
+NAO SEIII ScheduleTaskInstanceService
+Ops! UnsolvedSymbolException.
+NAO SEIII PollScheduleInstanceDTO
+Ops! UnsolvedSymbolException.
+NAO SEIII CollectionUtils
+Ops! UnsolvedSymbolException.
+NAO SEIII Set
+Ops! UnsolvedSymbolException.
+NAO SEIII DeferredResult
+Ops! UnsolvedSymbolException.
+NAO SEIII Set
+Ops! UnsolvedSymbolException.
+NAO SEIII HttpStatus
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaInstanceHandler
+Ops! UnsolvedSymbolException.
+NAO SEIII SagaInstanceEventPublisher
+Ops! UnsolvedSymbolException.
+NAO SEIII PollScheduleInstanceDTO
+Ops! UnsolvedSymbolException.
+NAO SEIII DeferredResult
+Ops! UnsolvedSymbolException.
+NAO SEIII DeferredResult
+Setting types.
+Setting operation.
+Setting all operations.
+Service Descriptor ok!
+ScheduleTaskInstanceSiteV2Controller,choerodon-asgard,ServiceInterfaceDataCohesion,0.0
+ScheduleTaskInstanceSiteV2Controller,choerodon-asgard,StrictServiceImplementationCohesion,0.09090909090909091
+ScheduleTaskInstanceSiteV2Controller,choerodon-asgard,LackOfMessageLevelCohesion,1.0
+ScheduleTaskInstanceSiteV2Controller,choerodon-asgard,NumberOfOperations,2.0

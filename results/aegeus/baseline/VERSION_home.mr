@@ -1,0 +1,4 @@
+MetricResult(metricName=ServiceInterfaceDataCohesion, metricValue=0.7333333333333333)
+MetricResult(metricName=StrictServiceImplementationCohesion, metricValue=0.017045454545454544)
+MetricResult(metricName=LackOfMessageLevelCohesion, metricValue=0.8434789150907582)
+MetricResult(metricName=NumberOfOperations, metricValue=96.0)
